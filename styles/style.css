@@ -1,0 +1,39 @@
+body {
+     background: linear-gradient(10deg, #eff, #dff);
+}
+
+.link:hover {
+     color: #dff;
+}
+
+.button {
+     padding: .7rem 2rem;
+     background: #224d;
+     color: #dff;
+     border-radius: 10px;
+     border: none;
+     font-size: 20px;
+     transition: .3s;
+}
+
+.button:hover {
+     background: #224a;
+     transition: .2s;
+}
+
+.inputs {
+     outline: none;
+     padding: .5rem 1rem;
+     color: #222a;
+     border: 1px solid #224d;
+}
+
+.normalLinks {
+     color: #224d;
+     transition: .2s;
+}
+
+.normalLinks:hover {
+     color: #224a;
+     transition: .2s;
+}
